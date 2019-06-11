@@ -1,6 +1,6 @@
 {
-  "name": "@cross2d/react-native-talkingdata",
-  "version": "2.0.1",
+  "name": "react-native-talkingdata",
+  "version": "8.0.0",
   "description": "React Native TalkingData",
   "main": "index.js",
   "scripts": {

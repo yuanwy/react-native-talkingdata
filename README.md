@@ -5,7 +5,7 @@ React Native的TalkingData插件
 ### 首先安装npm包
 
 ```bash
-npm install @cross2d/react-native-talkingdata --save
+npm install react-native-talkingdata --save
 ```
 
 ### link
@@ -20,16 +20,16 @@ rnpm link
 #### Android版本需要手动修改如下配置
 ```
 app/build.gradle中 
-compile project(':@cross2d/react-native-talkingdata')
+compile project(':react-native-talkingdata')
 修改为
 compile project(':react-native-talkingdata')
 
 项目的 settings.gradle
-include ':@cross2d/react-native-talkingdata'
-project(':@cross2d/react-native-talkingdata').projectDir = new File(rootProject.projectDir, '../node_modules/@cross2d/react-native-talkingdata/android')
+include ':react-native-talkingdata'
+project(':react-native-talkingdata').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-talkingdata/android')
 需要修改为  
 include ':react-native-talkingdata'
-project(':react-native-talkingdata').projectDir = new File(rootProject.projectDir, '../node_modules/@cross2d/react-native-talkingdata/android')
+project(':react-native-talkingdata').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-talkingdata/android')
 ```
 
 
